@@ -34,8 +34,8 @@ const Home: NextPage = () => {
             <li className="">
               <span className="">🐥</span> 메인 언어 Typescript로{" "}
               <br className=""></br>프론트엔드 개발에 관심을 가지고 있는{" "}
-              <br className="hidden sm:inline lg:hidden"></br>{" "}
-              <b className="">주니어 개발자</b>
+              <br className=" lg:hidden"></br>{" "}
+              <b className="bg-teal-200">주니어 개발자</b>
               <span className="font-bold">,</span>
             </li>
             <li>
@@ -43,21 +43,20 @@ const Home: NextPage = () => {
               <br className="hidden sm:inline"></br>
               프로젝트를 완성해 보고 <br className="sm:hidden"></br>싶은
               <br className="hidden sm:inline lg:hidden"></br>{" "}
-              <b> 협조적인 개발자</b>
+              <b className="bg-teal-200"> 협조적인 개발자</b>
               <span className="font-bold">,</span>
             </li>
             <li>
               ✨ 세심하고 꼼꼼한 성격으로 자그마한 기능과
-              <br className="hidden sm:inline"></br> 버그도 지나치지 않는
+              <br className="hidden sm:inline"></br> 버그도 지나치지 않는{" "}
               <br className="hidden "></br>
               <br className="hidden sm:inline lg:hidden"></br>
-              <b> 섬세한 개발자</b>
+              <b className="bg-teal-200">섬세한 개발자</b>
               <span className="font-bold ">,</span>
             </li>
             <li className="">
-              🦄 최대한 짧고 간결한 코드를 추구하는{" "}
-              <br className="hidden sm:inline"></br>
-              <b>심플 추구 개발자</b>
+              🦄 최대한 짧고 간결한 코드를 추구하는 <br className=""></br>
+              <b className="bg-teal-200">심플 추구 개발자</b>
             </li>
           </ul>
           <div className="font-bold text-4xl text-teal-500 sm:text-6xl ">
@@ -72,7 +71,9 @@ const Home: NextPage = () => {
             <div className="text-3xl sm:text-5xl lg:text-6xl">
               Interested<br className="hidden sm:inline"></br> Development Field
             </div>
-            <div className="sm:text-xl sm:mt-3 ">관심있는 개발 분야 소개</div>
+            <div className="sm:text-xl sm:mt-3 underline">
+              관심있는 개발 분야 소개
+            </div>
           </div>
           <div className="sm:text-lg pb-16 lg:text-xl xl:text-2xl border-b-2 lg:pb-32  ">
             제가 관심 있는 분야는 프론트엔드 개발입니다. 프론트엔트 직무는 웹과
@@ -95,7 +96,7 @@ const Home: NextPage = () => {
             <div className="text-3xl sm:text-5xl lg:text-6xl">
               Why Choose Front-End Engineer?
             </div>
-            <div className="break-keep sm:text-xl sm:mt-3  lg:mt-5">
+            <div className="break-keep sm:text-xl sm:mt-3  lg:mt-5 underline">
               프론트엔드 엔지니어를 선택하게 된 이유
             </div>
           </div>
@@ -121,7 +122,7 @@ const Home: NextPage = () => {
             <div className="text-3xl sm:text-5xl lg:text-6xl">
               Memorable Development Project
             </div>
-            <div className="break-keep sm:text-xl sm:mt-3  lg:mt-5">
+            <div className="break-keep sm:text-xl sm:mt-3  lg:mt-5 underline">
               기억에 남는 개발 프로젝트
             </div>
           </div>
@@ -147,7 +148,7 @@ const Home: NextPage = () => {
             <div className="text-3xl sm:text-5xl  lg:text-6xl">
               Character Strengths And Weaknesses
             </div>
-            <div className="break-keep sm:text-xl sm:mt-3 lg:mt-5">
+            <div className="break-keep sm:text-xl sm:mt-3 lg:mt-5 underline">
               성격의 장점과 단점
             </div>
           </div>

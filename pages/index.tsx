@@ -59,8 +59,8 @@ const Home: NextPage = () => {
               <b className="bg-teal-200">심플 추구 개발자</b>
             </li>
           </ul>
-          <div className="font-bold text-4xl text-teal-500 sm:text-6xl ">
-            &#125;
+          <div className="tracking-widest font-bold text-4xl text-teal-500 sm:text-6xl ">
+            &#125;<span className="text-black">;</span>
           </div>
         </div>
 
